@@ -1,0 +1,411 @@
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* background-color:plum; */
+}
+
+#page 
+{
+margin: auto;
+width: 90%;
+height: 100%;
+
+float: left;
+margin-left: 5%;
+}
+header{
+ 
+float: left;
+    height: 54px;
+    width: 100%;
+}
+header img{
+    float: left;
+    width: 108px;
+    margin-top: 12px;
+}
+header nav{
+
+    height: 49px;
+    float: left;
+    font-size: 13px;
+}
+header nav ul{
+    float: left;
+    height: 49px;
+margin-top: 0;
+padding: 0;
+}
+header nav li {
+    float: left;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 10px ;
+    float: left;
+
+}
+header nav ul li a span:hover {
+    border-bottom: solid black 2px;
+    padding-bottom: 2px;
+}
+
+.nav2{
+    width: 400px;
+    height: 49px;
+    float: right;
+
+}
+
+.nav2 a{
+color: black;
+text-decoration: none;
+}
+header a:hover{
+    border-bottom: solid black 2px;
+    padding-bottom: 2px;
+}
+.search{
+
+    color: gray;
+    /* border: indigo solid 2px; */
+    float: right;
+    margin-left: 10px;
+}
+.cart{
+    color: gray;
+    float: right;
+    /* border: wheat solid 2px; */
+    margin-left: 10px;
+}
+.user{
+    color: gray;
+    /* border: tomato solid 2px; */
+    float: right;
+    margin-left: 10px;
+
+}
+.micro {
+    margin-top: 15px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    float: right;
+    
+}
+
+/* home1 */
+.clear{
+
+    clear: both;
+}
+.home1{
+
+    background-image: url(img/bg1.png );
+    background-size: cover ;
+    width: 1230px;
+    height: 460px;
+    margin: auto;
+}
+
+
+.cap-home{
+    float: right;
+    /* padding-top: 150px; */
+    margin: 50px;
+    margin-top: 100px;
+
+}
+.yellow{
+    background-color: yellow;
+    padding: 5px;
+}
+
+.btn1{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 500;
+
+}
+.btn2{
+    background-color:transparent;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    font-weight: 500;
+
+}
+
+
+.btn1:hover{
+    text-decoration-line: underline;
+
+
+}
+.btn2:hover{
+    text-decoration-style: solid;
+    text-decoration-line:underline ;
+}
+.blue{
+    background-color: #0067B8;
+    color: cornsilk;
+    height: 20px;
+    width: 1230px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+}
+.blue p {
+    margin-top: 1px;
+font-size: 13px;
+color: white;
+
+}
+.blue:hover{
+    border:  dashed black 1px;
+}
+
+.blue a{
+    text-decoration: none;
+}
+.blue a p:hover{
+    text-decoration: underline;
+
+}
+.home2{
+    background-image: url(img/bg2.png);
+    background-size: cover ;
+    width: 1230px;
+    height: 460px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+}
+.cap-home2{
+    float: left;
+    margin: 50px;
+    margin-top: 140px;
+    color: #ffffff;
+}
+
+.btn3{
+    background-color:white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+
+
+}
+.btn4{
+    background-color:transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+
+.btn3:hover{
+    background-color: rgb(190, 187, 187);
+    text-decoration:underline;
+}
+.btn4:hover{
+    text-decoration:underline;
+
+}
+.covid{
+    background-color: #e6e6e6;
+    margin: auto;
+    margin-top: 40px;
+    width: 1210px;
+    text-align: center;
+    padding: 10px;
+}
+.btn5{
+    border: hidden;
+     background-color: transparent;
+     font-size: 16px;
+     font-weight: 500;
+}
+.btn5:hover{
+    text-decoration:underline;
+
+}
+.covid h2 {
+    font-size: 33px;
+}
+.home3{
+    background-image: url("img/bg3.png");
+    background-size: cover ;
+    width: 1230px;
+    height: 460px;
+    margin: auto;
+    margin-top: 30px;
+}
+.icons{
+    background-color: royalblue;
+    width: 90%;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.cap-icon{
+    float: left;
+    margin: 20px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.cap-icon a {
+color: black;
+text-decoration: none;
+}
+
+.cap-icon a:hover{
+    text-decoration-line: underline;
+}
+
+
+.cap-tap{
+float: right;
+width: 20%;
+margin-top: 30px;
+margin-right: 52px;
+
+
+}
+.cap-tap img{
+    width: 270px;
+    
+}
+.cap-tap a {
+    font-weight: 500 ;
+    color: #0067b8;
+}
+.tap h2{
+    margin-left: 60px;
+    font-weight: 600;
+}
+
+
+.cap-tap2{
+    float: right;
+    width: 20%;
+    margin-top: 5px;
+    margin-right: 52px;
+    
+    
+    }
+    .cap-tap2 img{
+        width: 270px;
+        
+    }
+    .cap-tap2 a {
+        font-weight: 500 ;
+        color: #0067b8;
+    }
+    .tap2 h2{
+        margin-left: 60px;
+        font-weight: 600;
+    }
+    .a1{
+
+        float: left;
+    }
+    .a2{
+        float: right;
+    }
+.follow{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    margin-top: 30px;
+}
+.follow {
+    color: rgba(0,0,0,.6);
+    font-weight: lighter ;
+    line-height : 20px;
+}
+.pic {
+    margin: 10px;
+}
+.head{
+    font-weight: bold;
+}
+
+.list a{
+    text-decoration: none;
+    color: #616161;
+}
+.list li {
+list-style-type: none;}
+.list a:hover{
+ text-decoration: underline;
+}
+
+
+.down{
+    background-color: #f2f2f2;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.color{
+    background-color: #f2f2f2;
+
+}
+.list li {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.left{
+    float:right;
+
+margin-left: 10px;
+margin-right: 50px;}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+footer li{
+    float: left;
+     margin: 13px;
+     list-style-type: none;
+   
+}
+footer a{
+    text-decoration: none;
+    color: #616161;
+}
+
+footer li a:hover{
+    text-decoration-line: underline;
+
+}
+.edit{
+    margin-top: 10px;
+    /* text-align: center; */
+}
